@@ -1,0 +1,37 @@
+.main-header {
+  background-color: var(--main-black);
+}
+.container {
+}
+.main-header__container {
+  width: 1250px;
+  height: 75px;
+}
+.main-header__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header__logo-link {
+}
+.main-header__logo-image {
+}
+.main-header__navigation-list {
+  max-width: 570px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main-header__navigation-list-item {
+  padding: 0 25px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: center;
+}
+.main-header__navigation-link {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.section-header__line {
+    margin: 0 auto 50px auto;
+    height: 1px;
+    width: 170px;
+    background-color: var(--main-orange);
+  }
+  .section-header__subtitle {
+    text-align: center;
+    margin-bottom: 100px;
+    color: var(--main-grey);
+  }
+  .section-header__title {
+    text-align: center;
+    margin-bottom: 50px;
+  }

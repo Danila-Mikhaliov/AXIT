@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "normalize.css";
+@import "reset.css";
+@import "container.css";
+@import "var.css";
+@import "config.css";
+@import "main-header.css";
+@import "social-media.css";
+@import "tabs.css";
+@import "section-header.css";
+@import "awesome.css";
+@import "pricing-column.css";
+@import "customers.css";
+@import "stylish.css";
+
+
+@import "main-footer.css"

@@ -67,6 +67,7 @@
   text-align: center;
 }
 .pricing-column__options {
+ 
 }
 .pricing-column__space {
   background-color: var(--main-white);
@@ -82,4 +83,5 @@
   line-height: 21px;
   letter-spacing: 0em;
   text-align: center;
+  border-bottom: 2px solid #F5F5F5;
 }

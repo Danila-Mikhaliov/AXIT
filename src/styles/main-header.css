@@ -1,5 +1,8 @@
 .main-header {
+  position: fixed;
+  width: 100%;
   background-color: var(--main-black);
+  z-index: 100000;
 }
 .container {
 }

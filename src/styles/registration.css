@@ -1,0 +1,46 @@
+.registration {
+  background-image: url("../assets/image/registration-background.jpg");
+  min-height: 1026px;
+  max-width: 100%;
+  border-radius: 0px;
+  background-size: cover;
+  position: relative;
+
+}
+.registration:before {
+	content: '';
+	display: block;
+	min-height: 1026px;
+  max-width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .5);
+}
+.container {
+}
+.registration__content {
+  position: absolute;
+    
+}
+.registration__text {
+  padding-top: 231px;
+}
+.registartion__logo {
+  margin-bottom: 72px
+}
+.registration__title {
+ max-width: 670px;
+ min-height: 168px;
+ color: var(--main-white);
+ margin-bottom: 97px;
+}
+.registration__subtitle{
+  color: #FFFFFF;
+  width: 270px;
+  height: 42px;
+
+
+}

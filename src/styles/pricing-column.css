@@ -66,9 +66,6 @@
   letter-spacing: 0em;
   text-align: center;
 }
-.pricing-column__options {
- 
-}
 .pricing-column__space {
   background-color: var(--main-white);
   color: var(--main-grey);

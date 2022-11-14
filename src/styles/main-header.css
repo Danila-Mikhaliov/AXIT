@@ -4,10 +4,8 @@
   background-color: var(--main-black);
   z-index: 100000;
 }
-.container {
-}
 .main-header__container {
-  width: 1250px;
+  max-width: 1250px;
   height: 75px;
 }
 .main-header__navigation {
@@ -15,10 +13,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-.main-header__logo-link {
-}
-.main-header__logo-image {
 }
 .main-header__navigation-list {
   max-width: 570px;

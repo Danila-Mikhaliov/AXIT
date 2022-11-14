@@ -1,10 +1,6 @@
 .main-footer {
   background-color: black;
 }
-.main-footer {
-}
-.container {
-}
 .main-footer__content {
   padding-top: 43px;
   display: flex;
@@ -16,14 +12,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-.main-footer__logo {
-}
-.main-footer__logo-link {
-}
-.main-footer__logo-icon {
-}
-.social-media__logo {
 }
 .main-footer__text {
   color: #FFFFFF80;

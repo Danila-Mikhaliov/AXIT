@@ -3,8 +3,6 @@
   max-height: 140px;
   background: #f8efef;
 }
-.container {
-}
 .social-media__content {
   display: flex;
   flex-direction: row;
@@ -31,8 +29,4 @@
 .social-media__logo {
   max-width: 70px;
   max-height: 70px;
-}
-.social-media__logo-link {
-}
-.social-media__logo-icon {
 }

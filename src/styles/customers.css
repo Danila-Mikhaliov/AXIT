@@ -7,7 +7,6 @@
   justify-content: space-between;
   margin-bottom: 66px;
   position: relative;
-  margin-left: 20px;
 }
 .customers__phrases {
   width: 370px;
@@ -18,7 +17,7 @@
   text-align: center;
   background-color: #e2e2e2;
   color: #86878b;
-  padding: 38px 10px 38px 10px;
+  padding: 0 20px;
 
 }
 .customers__phrases:nth-child(2) {

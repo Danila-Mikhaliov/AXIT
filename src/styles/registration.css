@@ -4,6 +4,7 @@
   max-width: 100%;
   border-radius: 0px;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
 }
 .registration:before {
@@ -22,19 +23,48 @@
   position: absolute;
 }
 .registration__text {
+  display: flex;
+  flex-direction: column;
   padding-top: 231px;
 }
 .registartion__logo {
   margin-bottom: 72px;
+  align-self: flex-start;
+  flex-basis: 270px;
+  max-height: 100px;
 }
 .registration__title {
   max-width: 670px;
   min-height: 168px;
   color: var(--main-white);
-  margin-bottom: 97px;
+  margin-bottom: 55px;
 }
 .registration__subtitle {
   color: #ffffff;
   width: 270px;
   height: 42px;
+  margin-bottom: 42px;
+}
+.registration__line{
+  max-width: 170px;
+  min-height: 1px;
+  background-color: var(--main-white);
+  margin-bottom: 42px; 
+}
+.registration__download{
+  max-width: 270px;
+  min-height: 58px;
+  font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--main-white);
+    border: 2px solid var(--main-white);
+    background-color: transparent;
+    cursor: pointer;
+}
+.registration__download:hover{
+  transition: all .3s;
+  transform: scale(1.1);
 }

@@ -3,6 +3,7 @@
     padding-bottom: 50px;
     background:linear-gradient(rgba(30, 29, 29, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/image/stylish_background.jpg) ;
     background-size: contain;
+    background-attachment: fixed;
 }
 .section-header--white {
     color: var(--main-white);
@@ -30,5 +31,10 @@
     line-height: 25px;
     color: var(--main-white);
     border: 2px solid var(--main-white);
-  background-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+.stylish__button-download:hover{
+    transition: all .3s;
+    transform: scale(1.1);
 }

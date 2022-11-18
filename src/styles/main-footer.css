@@ -3,17 +3,18 @@
 }
 .main-footer__content {
   padding-top: 43px;
-  display: flex;
-  flex-direction: column;
-
-
 }
 .main-footer__logo-row {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  max-width: 570px;
+  margin: 0 auto;
 }
 .main-footer__text {
   color: #FFFFFF80;
   text-align: center;
+}
+.main-footer__logo-icon{
+  width: 53.2px;
+height: 53.2px;
 }

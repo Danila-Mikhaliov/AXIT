@@ -1,6 +1,6 @@
 .social-media {
   padding-top: 15px;
-  max-height: 140px;
+  min-height: 140px;
   background: #f8efef;
 }
 .social-media__content {
@@ -10,7 +10,7 @@
   align-items: center;
 }
 .social-media__text {
-  max-width: 470px;
+  max-width: 40.1%;
 }
 .social-media__text-title {
   max-width: 470px;
@@ -20,11 +20,6 @@
   padding-top: 10px;
   max-width: 470px;
   max-height: 42px;
-}
-.social-media__logo-row {
-  max-width: 570px;
-  display: flex;
-  justify-content: space-around;
 }
 .social-media__logo {
   max-width: 70px;

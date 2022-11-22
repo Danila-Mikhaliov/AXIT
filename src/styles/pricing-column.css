@@ -8,11 +8,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  height: 550px;
+  height: 34.375rem;
 }
 .pricing-column {
-  max-width: 370px;
-  max-height: 510px;
+  flex-basis: 23.125rem;
+  max-height: 31.875rem;
 }
 .pricing-column:nth-child(2) {
   align-self: flex-start;
@@ -24,8 +24,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 370px;
-  height: 60px;
+  flex-basis: 23.125rem;
+  height: 3.75rem;
   border-bottom: 3px solid var(--main-white);
   font-family: Open Sans;
   font-size: 24px;
@@ -40,8 +40,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 370px;
-  height: 100px;
+  flex-basis: 23.125rem;
+  height: 6.25rem;
   border-bottom: 3px solid var(--main-white);
   font-family: Raleway;
   font-size: 36px;
@@ -57,8 +57,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 370px;
-  height: 50px;
+  flex-basis: 23.125rem;
+  min-height: 3.125rem;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
@@ -72,8 +72,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 370px;
-  height: 50px;
+  flex-basis: 23.125rem;
+  min-height: 3.125rem;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 400;

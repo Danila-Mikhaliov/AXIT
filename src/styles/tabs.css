@@ -3,7 +3,7 @@
 }
 .tabs__buttons {
   display: flex;
-  max-width: 700px;
+  max-width: 43.75rem;
 }
 .tabs__button {
   border: none;
@@ -35,7 +35,7 @@
 .tabs__content-text {
   padding: 50px 0 0 100px;
   border: 1px solid #c6cbcd;
-  max-height: 500px;
+  max-height: 31.25rem;
   padding-right: 30px;
 }
 .tabs__content-title {
@@ -44,14 +44,14 @@
 .tabs__content-discription {
   line-height: 20px;
   text-align: left;
-  max-height: 210px;
-  min-width: 570px;
+  max-height: 13.125rem;
+  min-width: 35.625rem;
   margin-bottom: 27px;
 }
 .tabs__content-download {
   background-color: var(--main-orange);
-  width: 270px;
-  height: 58px;
+  width: 16.815rem;
+  height: 3.625rem;
   border: none;
   color: #fff;
   font-family: "open sans";
@@ -60,6 +60,6 @@
   border-radius: 5px;
 }
 .tabs__content-image {
-  max-width: 470px;
-  max-height: 500px;
+  max-width: 29.375rem;
+  max-height: 31.25rem;
 }

@@ -8,8 +8,8 @@
   
 }
 .customer__column {
-  min-height: 180px;
-  max-width: 370px;
+  min-height: 11.25rem;
+  max-width: 23.125rem;
   margin: 0 15px;
   position: relative;
 }

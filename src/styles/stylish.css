@@ -22,8 +22,8 @@
     justify-content: center;
 }
 .stylish__button-download {
-    flex-basis: 370px;
-    min-height: 58px;
+    flex-basis: 23.125rem;
+    min-height: 3.625rem;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;

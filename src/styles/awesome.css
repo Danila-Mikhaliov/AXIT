@@ -21,13 +21,13 @@
 .awesome__card-title {
   text-align: center;
   margin: 0 auto 50px auto;
-  max-width: 369px;
-  max-height: 100px;
+  max-width: 23.06rem;
+  max-height: 6.25rem;
 }
 .awesome__card-discription {
   padding: 10px;
-  height: 105px;
-  width: 370px;
+  min-height: 6.56rem;
+  max-width: 23.125rem;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 400;

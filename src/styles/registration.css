@@ -1,6 +1,6 @@
 .registration {
   background-image: url("../assets/image/registration-background.jpg") ;
-  min-height: 1026px;
+  min-height: 64.125rem;
   max-width: 100%;
   background-size: cover;
   background-attachment: fixed;
@@ -9,7 +9,7 @@
 .registration:before {
   content: "";
   display: block;
-  min-height: 1026px;
+  min-height: 64.125rem;
   max-width: 100%;
   position: absolute;
   top: 0;
@@ -33,30 +33,30 @@
 .registartion__logo {
   margin-bottom: 72px;
   align-self: flex-start;
-  max-width: 270px;
-  max-height: 100px;
+  flex-basis: 16.875rem;
+  max-height: 6.25rem;
 }
 .registration__title {
-  max-width: 670px;
-  min-height: 168px;
+  max-width: 41.875rem;
+  min-height: 10.5rem;
   color: var(--main-white);
   margin-bottom: 55px;
 }
 .registration__subtitle {
   color: #ffffff;
-  width: 270px;
-  height: 42px;
+  max-width: 16.875rem;
+  min-height: 2.625rem;
   margin-bottom: 42px;
 }
 .registration__line{
-  max-width: 170px;
+  max-width: 10.75rem;
   min-height: 1px;
   background-color: var(--main-white);
   margin-bottom: 42px; 
 }
 .registration__download{
-  max-width: 270px;
-  min-height: 58px;
+  max-width: 16.875rem;
+  min-height: 3.625rem;
   font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -75,8 +75,8 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  min-width : 470px;
-  min-height: 450px;
+  min-width : 29.375rem;
+  min-height: 28.125rem;
   border-radius: 10px;
   margin: 70px 0 0 50px
 }
@@ -92,8 +92,8 @@
   line-height: 33px;
   letter-spacing: 0em;
   text-align: center;
-  min-height: 90px;
-max-width: 367px;
+  min-height: 5.625rem;
+max-width: 22.938rem;
 }
 .legend__orange{
   color: var(--main-orange);
@@ -104,7 +104,7 @@ max-width: 367px;
   flex-direction: column;
 }
 .registration__form-data-input {
-  width: 370px;
+  width: 80%;
   margin-bottom: 33px;
   border: none;
   border-bottom: 1px solid var(--main-lightgrey);
@@ -121,8 +121,15 @@ max-width: 367px;
   color: var(--main-white);
   border: none;
   margin-top: 75px;
-  max-width: 500px;
-  min-height: 60px;
+  max-width: 31.25rem;
+  min-height: 3.75rem;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  font-family: Open Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
 }

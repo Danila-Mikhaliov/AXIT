@@ -1,5 +1,6 @@
 .social-media {
-  padding-top: 15px;
+  /* padding: 15px; */
+  max-width: 100%;
   min-height: 8.75rem;
   background: #f8efef;
 }
@@ -8,6 +9,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  max-width: 100%;
 }
 .social-media__text {
   max-width: 40.1%;

@@ -8,7 +8,8 @@
 .tabs__button {
   border: none;
   background-color: white;
-  padding: 10px 85px;
+  width: 33.3%;
+  height: 40px;
   cursor: pointer;
   font-family: Open Sans;
   font-size: 14px;
@@ -31,12 +32,12 @@
 }
 .tabs__content {
   display: flex;
+  justify-content: space-between;
+  border: 1px solid #c6cbcd;
+  padding: 50px 15px 10px 100px;
 }
 .tabs__content-text {
-  padding: 50px 0 0 100px;
-  border: 1px solid #c6cbcd;
-  max-height: 31.25rem;
-  padding-right: 30px;
+  max-width: 35.625rem;
 }
 .tabs__content-title {
   margin-bottom: 60px;
@@ -44,15 +45,14 @@
 .tabs__content-discription {
   line-height: 20px;
   text-align: left;
-  max-height: 13.125rem;
-  min-width: 35.625rem;
   margin-bottom: 27px;
 }
 .tabs__content-download {
   background-color: var(--main-orange);
-  width: 16.815rem;
+  width: 47.37%;
   height: 3.625rem;
   border: none;
+  text-align: center;
   color: #fff;
   font-family: "open sans";
   font-weight: 600;
@@ -60,6 +60,9 @@
   border-radius: 5px;
 }
 .tabs__content-image {
-  max-width: 29.375rem;
-  max-height: 31.25rem;
+  object-fit: contain;
+  max-width: 100%;
+}
+.tabs__content-picture{
+  margin: 0 0 20px 0;
 }

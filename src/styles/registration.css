@@ -1,10 +1,11 @@
 .registration {
+  position: relative;
   background-image: url("../assets/image/registration-background.jpg") ;
+  background-size: 100%;
   min-height: 64.125rem;
   max-width: 100%;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  position: relative;
 }
 .registration:before {
   content: "";
@@ -20,6 +21,7 @@
 }
 
 .registration__content {
+
   position: absolute;
   display: flex;
   align-items: center;
@@ -28,6 +30,7 @@
 .registration__text {
   display: flex;
   flex-direction: column;
+  max-width: 41.875rem;
   padding-top: 231px;
 }
 .registartion__logo {
@@ -37,7 +40,6 @@
   max-height: 6.25rem;
 }
 .registration__title {
-  max-width: 41.875rem;
   min-height: 10.5rem;
   color: var(--main-white);
   margin-bottom: 55px;
@@ -71,12 +73,17 @@
   transition: all .3s;
   transform: scale(1.1);
 }
-.registration__form {
-  background-color: #ffffff;
+.registration__form-container{
+  
   display: flex;
   flex-direction: column;
-  min-width : 29.375rem;
-  min-height: 28.125rem;
+  justify-content: space-between;
+  max-width : 29.38rem;
+  max-width: calc(1170px - );
+  min-height: 28.13rem;
+}
+.registration__form {
+  background-color: #ffffff;
   border-radius: 10px;
   margin: 70px 0 0 50px
 }
@@ -92,8 +99,6 @@
   line-height: 33px;
   letter-spacing: 0em;
   text-align: center;
-  min-height: 5.625rem;
-max-width: 22.938rem;
 }
 .legend__orange{
   color: var(--main-orange);
